@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Coverage
+coverage/

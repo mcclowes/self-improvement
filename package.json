@@ -1,0 +1,23 @@
+{
+  "name": "self-improvement",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "benchmark": "npx tsx src/benchmark.ts",
+    "improve": "npx tsx src/improve.ts",
+    "improve:llm": "npx tsx src/improveWithLLM.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "dotenv": "^17.2.3"
+  }
+}
